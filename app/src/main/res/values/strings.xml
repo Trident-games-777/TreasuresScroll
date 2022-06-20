@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TreasuresScroll</string>
+
+    <string name="fb_id">429122562369820</string>
+    <string name="fb_tkn">cf953b4097222ac5894f09c4b8d25e95</string>
+    <string name="scroll">Scroll</string>
+    <string name="two">2 in row = 2pts</string>
+    <string name="three">3 in row = 6pts</string>
+    <string name="four">4 in row = 10pts</string>
+    <string name="five">5 in row = 50pts</string>
+</resources>

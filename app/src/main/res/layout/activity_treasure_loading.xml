@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_background"
+        tools:context=".view.TreasureActivityLoading">
+
+        <com.eyalbira.loadingdots.LoadingDots
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="30dp"
+            app:LoadingDots_auto_play="true"
+            app:LoadingDots_dots_color="@color/brown"
+            app:LoadingDots_dots_count="4"
+            app:LoadingDots_dots_size="20dp"
+            app:LoadingDots_dots_space="5dp"
+            app:LoadingDots_jump_duration="200"
+            app:LoadingDots_jump_height="10dp"
+            app:LoadingDots_loop_duration="800"
+            app:LoadingDots_loop_start_delay="100" />
+    </FrameLayout>
+</layout>
